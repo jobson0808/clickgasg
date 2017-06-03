@@ -1,0 +1,28 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+        <ion-title>Pagamento</ion-title>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+    <h3>finaliza sua compra</h3>
+
+    <button class="btn" ion-button ion-left blok (click)="fim()">
+    <ion-icon name="navgate"></ion-icon>
+    Finaliza compra
+  </button >
+
+  <button class="btn" ion-button ion-left blok (click)="altera()">
+    <ion-icon name="arrow-dropleft"></ion-icon>
+    Altera pedido
+  </button >
+
+  <button class="btn" ion-button ion-left blok (click)="homep()">
+    <ion-icon name="home"></ion-icon>
+    Cancela
+  </button >
+</ion-content>
